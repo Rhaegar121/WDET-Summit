@@ -90,7 +90,7 @@
     background-size: cover;
     position: relative;
 }
-#about #program .title {
+.title {
     margin: 30px auto;
     text-align: center;
     font-size: 22px;
@@ -140,7 +140,7 @@
     /* border: 1px solid red; */
 }
 
-#about #program button {
+#about #program .join-btn {
     width: 270px;
     height: 65px;
     font-size: 17px;
@@ -152,4 +152,73 @@
     left: 50%;
     bottom: 5px;
     transform: translateX(-50%);
+}
+
+#speaker .title {
+    color: #272A31;
+}
+
+#speaker .card .speaker-card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+#speaker .card .speaker-card .speaker-pic {
+    width: 40%;
+}
+
+#speaker .card .speaker-card .speaker-pic .overlay {
+    width: 65px;
+    height: 65px;
+}
+
+#speaker .card .speaker-card .speaker-pic .speaker-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+
+#speaker .card .speaker-card .speaker-detail {
+    width: 60%;
+}
+
+#speaker .card .speaker-card .speaker-detail .position {
+    font-size: 13px;
+    color: #EC5242;
+    font-style: italic;
+    background-image: linear-gradient(#d3d3d3, #d3d3d3);
+    background-size: 18px 1px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 8px;
+    margin: 8px 0px;
+}
+
+#speaker .card .speaker-card .speaker-detail .text {
+    font-size: 12px;
+    color: #272A31;
+}
+
+#speaker .more-btn {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+#speaker .more-btn i {
+    color: #EC5242;
+    margin-left: 5px;
+}
+
+#speaker .more-btn:hover {
+    cursor: pointer;
 }
