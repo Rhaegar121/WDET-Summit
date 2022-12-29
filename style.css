@@ -80,3 +80,76 @@
     color: #3e485a;
     margin-top: 7px;
 }
+
+#about {
+    margin-top: 60px;
+}
+#about #program {
+    background-image: url(photo/Depositphotos_11020411_l-1170x1170.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#about #program .title {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    background-image: linear-gradient(#EC5242, #EC5242);
+    background-size: 50px 2px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 18px;
+    padding-top: 30px;
+}
+
+#about #program .tag {
+    display: grid;
+    row-gap: 12px;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    padding-bottom: 130px;
+}
+
+.tag .program-tag {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+    background-color: rgba(162, 162, 162, 0.2);
+    /* border: 1px solid blue; */
+}
+
+.tag .program-tag .program-img {
+    width: 40px;
+    height: 40px;
+}
+
+.tag .program-tag .program-title {
+    font-size: 17px;
+    color: #EC5242;
+}
+
+.tag .program-tag .program-detail {
+    max-width: 210px;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+
+#about #program button {
+    width: 270px;
+    height: 65px;
+    font-size: 17px;
+    background-color: #EC5242;
+    color: #fff;
+    margin: 30px auto;
+    border: none;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+}
