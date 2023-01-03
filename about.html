@@ -22,7 +22,7 @@
         <a href="#">Logout</a>
         </div>
     </header>
-    
+
     <main id="home">
         <div class="container">
             <nav id="mobile-nav">
@@ -32,7 +32,7 @@
             </nav>
             <nav id="mobile-menu">
                 <a href="home.html" id="mobile-logo"><img src="photo/logo.png" alt="logo">
-                    <p><span>World DET</span><br>Summit 2022</p></a>
+                    <p><span id="mobile_wdet">World DET</span><br>Summit 2022</p></a>
                 <i class="fa-solid fa-xmark" id="xmark"></i>
                 <div class="menu">
                     <a href="home.html">Home</a>
@@ -44,8 +44,8 @@
             </nav>
             <nav id="desktop-nav">
                 <div id="desktop-menu">
-                    <a href="home.html" id="logo"><img src="photo/logo.png" alt="logo">
-                        <p><span>World DET</span><br>Summit 2022</p></a>    
+                    <a href="home.html" id="logo"><img src="photo/logo.png" alt="logo" id="desktop_logo_img">
+                        <p><span id="desktop_wdet">World DET</span><br>Summit 2022</p></a>    
                     <a href="home.html">Home</a>
                     <a href="about.html" class="active">About</a>
                     <a href="#">Join</a>
@@ -73,7 +73,7 @@
             <p class="para desktop-para">After online public voting and Selection Committee's judging process, the logo from Naresh Agrawal wone the price.</p>
             <p class="para desktop-para">After consultation with Mr. Agrawal we optimized the price-winning-logo for this year's summit as following:</p>
             <a href="#home" id="img-logo"><img src="photo/logo.png" alt="logo">
-                <p><span>World DET</span><br>Summit 2022</p></a> 
+                <p class="text-logo"><span class="WDET">World DET</span><br>Summit 2022</p></a> 
         </div>
     </section>
 
@@ -81,14 +81,14 @@
         <div class="container">
             <h2 class="title">See the past World DET Summits</h2>
             <p class="para">Take a look at the last two World DET Summits which took place in Myanmar and in Burma.</p>
-            <div class="card">
+            <div class="history">
                 <a href="#" class="history-card">
-                    <p>2020</p>
-                    <p>World DET Summits in Myanmar</p>
+                    <p class="year">2020</p>
+                    <p class="location">World DET Summits in Myanmar</p>
                 </a>
                 <a href="#" class="history-card" id="second-card">
-                    <p>2018</p>
-                    <p>World DET Summits in Burma</p>
+                    <p class="year">2018</p>
+                    <p class="location">World DET Summits in Burma</p>
                 </a>
             </div>
         </div>
@@ -98,11 +98,11 @@
         <div class="container">
             <h2 class="title">Partner</h2>
             <div class="company">
-                <span id="mozilla">mozilla</span>
-                <span id="google">Google</span>
-                <span id="microsoft">Microsoft</span>
-                <span id="facebook">Facebook</span>
-                <span id="apple">Apple</span>
+                <span>mozilla</span>
+                <span>Google</span>
+                <span>Microsoft</span>
+                <span>Facebook</span>
+                <span>Apple</span>
             </div>
         </div>
     </section>
@@ -110,8 +110,8 @@
     <footer id="footer">
         <div class="container">
             <div class="brand-name">
-                <img src="photo/logo.png" alt="logo">
-                <p>digital economy <br>& technology</p>
+                <img src="photo/logo.png" alt="logo" class="footer-logo">
+                <p class="brand">digital economy <br>& technology</p>
             </div>
             <p class="copyright">2022 Digital Economy & Technology Summit <br>Some Rights Reserved.</p>
         </div>
