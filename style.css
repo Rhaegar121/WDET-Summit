@@ -529,6 +529,11 @@ header {
     font-size: 14.5px;
   }
 
+  header .container a:hover,i:hover {
+    cursor: pointer;
+    color: #ec5242;
+  }
+
   #home #bg1 {
     right: 200px;
     width: 90px;
@@ -583,6 +588,7 @@ header {
     color: #272a31;
     font-weight: 700;
     margin-right: 230px;
+    transition: all 0.3s ease-out;
   }
 
   #home #desktop-nav #desktop-menu #logo p #desktop_wdet {
@@ -592,6 +598,11 @@ header {
   #home #desktop-nav #desktop-menu #logo #desktop_logo_img {
     width: 40px;
     height: 40px;
+  }
+
+  #home #desktop-nav #desktop-menu #logo:hover {
+    transform: scale(1.05);
+    color: #ec5242;
   }
 
   #home #desktop-nav #desktop-menu #campaign {
