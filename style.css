@@ -529,7 +529,8 @@ header {
     font-size: 14.5px;
   }
 
-  header .container a:hover,i:hover {
+  header .container a:hover,
+  i:hover {
     cursor: pointer;
     color: #ec5242;
   }
