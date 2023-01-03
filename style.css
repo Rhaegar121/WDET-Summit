@@ -433,16 +433,16 @@
     gap: 60px;
     padding: 35px 0;
 }
-#footer .container .name {
+#footer .container .brand-name {
     display: flex;
     align-items: center;
     width: 55%;
 }
-#footer .container .name img {
+#footer .container .brand-name img {
     width: 25px;
     height: 25px;
 }
-#footer .container .name p {
+#footer .container .brand-name p {
     font-size: 15px;
     font-weight: 600;
     line-height: 12px;
@@ -686,16 +686,16 @@
         gap: 60px;
         padding: 60px 0;
     }
-    #home-footer .container .name {
+    #home-footer .container .brand-name {
         display: flex;
         align-items: center;
         margin-left: 130px;
     }
-    #home-footer .container .name img {
+    #home-footer .container .brand-name img {
         width: 40px;
         height: 40px;
     }
-    #home-footer .container .name p {
+    #home-footer .container .brand-name p {
         font-size: 23px;
         font-weight: 600;
         line-height: 18px;
@@ -774,14 +774,14 @@
     #footer .container {
         gap: 30px;
     }
-    #footer .container .name {
+    #footer .container .brand-name {
         width: 20%;
     }
-    #footer .container .name img {
+    #footer .container .brand-name img {
         width: 50px;
         height: 50px;
     }
-    #footer .container .name p {
+    #footer .container .brand-name p {
         font-size: 23px;
         font-weight: 600;
         line-height: 16px;
