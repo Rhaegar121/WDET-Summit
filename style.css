@@ -289,6 +289,14 @@
     cursor: pointer;
 }
 
+#home-partner {
+    display: none;
+}
+
+#home-footer {
+    display: none;
+}
+
 /* about page */
 #home .container .about-intro {
     margin-top: 40px;
@@ -490,6 +498,9 @@
         color: #3e485a;
         font-weight: 500;
     }
+    #home #desktop-nav #desktop-menu a:hover {
+        color: #EC5242;
+    }
 
     .active {
         color: #EC5242 !important;
@@ -639,6 +650,62 @@
     #speaker .more-btn {
         display: none;
     }
+
+    #home-partner {
+        display: block;
+        background-color: #535353;
+        margin-top: 40px;
+    }
+    #home-partner .title {
+        padding-top: 40px;
+        padding-bottom: 25px;
+        background-size: 30px 1px;
+        margin: 30px auto;
+        color: #d3d3d3;
+        font-size: 24px;
+    }
+    #home-partner .company {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 50px;
+        padding-bottom: 50px;
+    }
+    #home-partner .company span {
+        font-size: 30px;
+        font-weight: 600;
+        color: #a8a8a8;
+    }
+
+    #home-footer {
+        display: block;
+    }
+    #home-footer .container {
+        display: flex;
+        justify-content: flex-start;
+        gap: 60px;
+        padding: 60px 0;
+    }
+    #home-footer .container .name {
+        display: flex;
+        align-items: center;
+        margin-left: 130px;
+    }
+    #home-footer .container .name img {
+        width: 40px;
+        height: 40px;
+    }
+    #home-footer .container .name p {
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    #home-footer .container .copyright {
+        font-size: 13px;
+        line-height: 26px;
+        color: #272A31;
+    }
+    
 
     /* about page */
     #home .container .about-intro {
