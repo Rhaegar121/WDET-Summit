@@ -12,6 +12,7 @@
     margin: auto;
 }
 
+/* home page */
 #home #bg1,#bg2,#bg3 {
     position: absolute;
     z-index: 1;
@@ -35,6 +36,9 @@
     top: 430px;
     right: 35px;
 }
+#home .container #desktop-nav {
+    display: none;
+}
 #home .container #mobile-nav {
     display: flex;
     flex-direction: column;
@@ -47,6 +51,60 @@
     width: 30px;
     height: 6px;
     background-color: #272A31;
+}
+#home .container #mobile-menu {
+    display: none;
+    position: fixed;
+    background-color: #ef5c4ce3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 3;
+}
+#home .container #mobile-menu #mobile-logo {
+    display: flex;
+    color: #272A31;
+    font-weight: 700;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#home .container #mobile-menu #mobile-logo p {
+    font-size: 13px;
+}
+#home .container #mobile-menu #mobile-logo p span {
+    font-size: 15px;
+}
+
+#home .container #mobile-menu #mobile-logo img {
+    width: 33px;
+    height: 33px;
+}
+#home .container #mobile-menu .fa-xmark {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    font-size: 40px;
+    color: #272A31;
+}
+#home .container #mobile-menu .menu {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+#home .container #mobile-menu .menu a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+}
+#home .container #mobile-menu .menu a:last-child {
+    border-bottom: none;
 }
 #home .container .intro {
     margin-top: 50px;
@@ -68,7 +126,7 @@
     font-size: 15px;
     line-height: 24px;
     position: relative;
-    z-index: 9;
+    z-index: 2;
 }
 #home .container .date {
     font-size: 27px;
@@ -154,6 +212,10 @@
     transform: translateX(-50%);
 }
 
+#about #program .desktop-btn {
+    display: none;
+}
+
 #speaker .title {
     color: #272A31;
 }
@@ -227,6 +289,148 @@
     cursor: pointer;
 }
 
+/* about page */
+#home .container .about-intro {
+    margin-top: 40px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #EC5242;
+    text-align: center  ;
+}
+#home .container .about-h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 14px;
+}
+#home .container .about-description {
+    background-color: #f5f5f5;
+    border: 1px solid #e5dddc;
+    padding: 10px 15px;
+    margin: 65px 0px;
+    font-size: 15px;
+    line-height: 24px;
+    position: relative;
+    z-index: 2;
+}
+.para {
+    font-size: 14px;
+    text-align: center;
+    color: #535353;
+    line-height: 23px;
+}
+#home .container .email {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+    color: #272A31;
+    display: block;
+    margin-bottom: 40px;
+}
+
+#about-logo {
+    border-top: 1px solid #e5dddc;
+    border-bottom: 1px solid #e5dddc;
+}
+#about-logo .container .title {
+    color: #272A31;
+    padding-top: 0;
+}
+#about-logo .container #img-logo {
+    display: flex;
+    color: #272A31;
+    font-weight: 700;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 40px 0px;
+    text-decoration: none;
+}
+#about-logo .container #img-logo p {
+    font-size: 22px;
+}
+#about-logo .container #img-logo p span {
+    font-size: 26px;
+}
+#about-logo .container #img-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+#history .container .title {
+    color: #272A31;
+}
+#history .container .history-card {
+    width: 90%;
+    height: 180px;
+    background: linear-gradient(rgba(236, 83, 66, 0.6), rgba(236, 83, 66, 0.6)), url(photo/Summit\ photo\ 2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+#history .history-card p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+#history .history-card p:first-child {
+    font-size: 26px;
+}
+#history #second-card {
+    background: linear-gradient(rgba(236, 83, 66, 0.6), rgba(236, 83, 66, 0.6)), url(photo/summit\ photo\ 1.jpg);
+}
+
+#partner {
+    background-color: #535353;
+    margin-top: 40px;
+}
+#partner .company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    padding-bottom: 50px;
+}
+#partner .company span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #a8a8a8;
+}
+
+#footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto;
+}
+#footer .container .name {
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+#footer .container .name img {
+    width: 25px;
+    height: 25px;
+}
+#footer .container .name p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 12px;
+}
+#footer .container .copyright {
+    font-size: 12px;
+    font-weight: 400;
+    width: 48%;
+    color: #535353;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 1155px;
@@ -254,7 +458,11 @@
         display: none;
     }
 
-    #home #desktop-nav {
+    #home .container #desktop-nav {
+        display: block;
+    }
+
+    #home #desktop-nav #desktop-menu {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -263,7 +471,7 @@
         margin-top: 15px;
     }
 
-    #home #desktop-nav a {
+    #home #desktop-nav #desktop-menu a {
         text-decoration: none;
         color: #3e485a;
         font-weight: 500;
@@ -273,23 +481,23 @@
         color: #EC5242 !important;
     }
 
-    #home #desktop-nav #logo {
+    #home #desktop-nav #desktop-menu #logo {
         display: flex;
         color: #272A31;
         font-weight: 700;
         margin-right: 230px;
     }
 
-    #home #desktop-nav #logo p span {
+    #home #desktop-nav #desktop-menu #logo p span {
         font-size: 18px;
     }
 
-    #home #desktop-nav #logo img {
+    #home #desktop-nav #desktop-menu #logo img {
         width: 40px;
         height: 40px;
     }
 
-    #home #desktop-nav #campaign {
+    #home #desktop-nav #desktop-menu #campaign {
         border: 4px solid #EC5242;
         color: #EC5242;
         padding: 9px;
@@ -356,6 +564,7 @@
     }
 
     #about #program .desktop-btn {
+        display: block;
         text-transform: uppercase;
         word-spacing: 3px;
         color: #fff;
