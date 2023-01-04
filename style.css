@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dangrek&family=Fascinate+Inline&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
 
 * {
   font-family: 'Lato', sans-serif;
@@ -134,11 +135,17 @@ header {
   color: #ec5242;
 }
 
-#home .container h1 {
-  font-family: 'Bungee Spice', cursive;
+#home .container .home-h1 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 900;
   font-size: 30px;
-  color: #ec5242;
   text-transform: uppercase;
+  background-image: url(photo/fire.jpg);
+  background-position: center;
+  background-attachment: local;
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 #home .container .description {
@@ -332,11 +339,13 @@ header {
 }
 
 #home .container .about-h1 {
-  font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 24px;
   font-weight: 900;
   margin-top: 14px;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ec5242;
+  text-transform: uppercase;
 }
 
 #home .container .about-description {
@@ -617,7 +626,7 @@ header {
     margin-top: 100px;
   }
 
-  #home .container h1 {
+  #home .container .home-h1 {
     font-size: 53px;
     max-width: 620px;
   }
@@ -801,8 +810,9 @@ header {
   }
 
   #home .container .about-h1 {
-    font-size: 40px;
+    font-size: 45px;
     margin: 60px auto;
+    width: 70%;
     background-image: linear-gradient(#ec5242, #ec5242);
     background-size: 30px 2px;
     background-position: center bottom;
