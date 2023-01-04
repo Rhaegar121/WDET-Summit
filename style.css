@@ -211,8 +211,11 @@ header {
   padding: 0 12px;
   gap: 10px;
   background-color: rgba(162, 162, 162, 0.2);
+  transition: all 0.5s ease-out;
+}
 
-  /* border: 1px solid blue; */
+.tag .program-tag:hover {
+  transform: scale(1.1);
 }
 
 .tag .program-tag .program-img {
@@ -492,6 +495,7 @@ header {
   display: flex;
   align-items: center;
   width: 55%;
+  text-decoration: none;
 }
 
 #footer .container .brand-name .footer-logo {
@@ -503,6 +507,7 @@ header {
   font-size: 15px;
   font-weight: 600;
   line-height: 12px;
+  color: #272a31;
 }
 
 #footer .container .copyright {
@@ -694,6 +699,10 @@ header {
     transform: translateX(-50%);
   }
 
+  #about #program .desktop-btn:hover {
+    color: #ec5242;
+  }
+
   #speaker .title {
     padding-top: 0;
   }
@@ -785,6 +794,7 @@ header {
     display: flex;
     align-items: center;
     margin-left: 130px;
+    text-decoration: none;
   }
 
   #home-footer .container .brand-name img {
@@ -796,6 +806,7 @@ header {
     font-size: 23px;
     font-weight: 600;
     line-height: 18px;
+    color: #272a31;
   }
 
   #home-footer .container .copyright {
