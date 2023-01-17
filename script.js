@@ -26,35 +26,30 @@ const speakers = [
     description: 'A high-level International Forum of key policy and decision makers shaping the future of the Digital Economy.',
     image: 'photo/Chandler Bing.jpg',
   },
-
   {
     name: 'Monica Geller',
     position: 'Senior Advisor, Vice-Chair of the NewYork Economic Coorperation Foundation.',
     description: "Find out the latest information and trends in digital technology. What's the next big things?",
     image: 'photo/Monica Geller.jpg',
   },
-
   {
     name: 'Joey Tribbiani',
     position: 'Chief Executive Officer, U.S Digital Economy Coorperation (UDEC).',
     description: 'Evaluate the growth potential of the Digital Economy in ASEAN and the East Asia region as future growth shifts to this part of Asia.',
     image: 'photo/Joey Tribbiani.jpg',
   },
-
   {
     name: 'Ross Geller',
     position: 'Founder and Group Executive Chairman, Silverlake Axis Ltd, NewYork.',
     description: 'Understand how the Digital Economy and digital innovation can assist us in building a more sustainable world with the stronger focus on sustainability and sustainable development.',
     image: 'photo/Ross geller.jpg',
   },
-
   {
     name: 'Rachel Green',
     position: 'Chief Strategy Officer, Intellize Tech Services, NewYork.',
     description: 'Leverage opportunities to network with participants at the Forum and develop new business linkages.',
     image: 'photo/Rachel green.png',
   },
-
   {
     name: 'Phoebe Buffay',
     position: 'Chair, Co-Founder, People Centered Internet, USA.',
