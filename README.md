@@ -17,10 +17,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [WDET_Summit] <a name="about-project"></a>
+# 📖 WDET Summit <a name="about-project"></a>
 
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="wdet screenshot 1.png" alt="project sample" width="650"  height="auto" />
+  <br/>
+  <img src="wdet screenshot 2.png" alt="project sample" width="650"  height="auto" />
   <br/>
 
   <h3><b>WDET Summit</b></h3>
