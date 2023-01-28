@@ -22,7 +22,7 @@
 <div align="center">
   <img src="wdet screenshot 1.png" alt="project sample" width="650"  height="auto" />
   <br/>
-  <img src="wdet screenshot 2.png" alt="project sample" width="650"  height="auto" />
+  <img src="wdet screenshot 2.jpg" alt="project sample" width="650"  height="auto" />
   <br/>
 
   <h3><b>WDET Summit</b></h3>
