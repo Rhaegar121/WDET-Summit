@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rhaegar121.github.io/WDET-Summit/)
+- [Live Demo Link](https://wdet-summit.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
